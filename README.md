@@ -110,3 +110,32 @@ Soy ingeniero de software desde 2010. Desde 2018 combino mi trabajo desarrolland
 ### En mi perfil de GitHub tienes más información
 
 [![Web](https://img.shields.io/badge/GitHub-MoureDev-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/mouredev)
+
+
+
+#How to deploy in external sites as github.io
+ - [Self Hosting](https://reflex.dev/docs/hosting/self-hosting/)
+
+## Exporting a Static Build
+
+- Exporting a static build of the frontend allows the app to
+  be served using a static hosting provider, like Netlify or Github Pages. 
+  Be sure api_url is set to an accessible backend URL when the frontend is exported.
+ 
+  ``API_URL=http://app.example.com:8000 reflex export``
+
+  This will create a frontend.zip file with your app's minified HTML, Javascript, and CSS build that can be 
+  uploaded to your static hosting service.
+
+  It also creates a backend.zip file with your app's backend python code to upload to your server and run.
+
+  You can export only the frontend or backend by passing in the --frontend-only or --backend-only flags.
+
+  It is also possible to export the components without zipping. To do this, use the --no-zip parameter. 
+  This provides the frontend in the .web/_static/ directory and the backend can be found in the root 
+  directory of the project.
+
+## How to avoid use jekyll page builder in Github Pages
+
+ - [Github Pages is Not Loading Specific Folders](https://github.com/orgs/community/discussions/22161) 
+ - [How to have link of a directory in Github Pages?](https://stackoverflow.com/questions/54169463/how-to-have-link-of-a-directory-in-github-pages)
