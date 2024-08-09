@@ -1,5 +1,5 @@
 {
-    "title": "Dionis López Ramos | Portafolio",
+    "title": "Dionis López Ramos | Flutter Portafolio",
     "description": "I'm a Cuban software engineer and Data Sciences, Phd in Computer Sciences and AI researcher",
     "image": "/avatar_main.jpg",
     "avatar": "/avatar_main.jpg",
@@ -121,9 +121,9 @@
     "projects": [
         {
             "icon": "brain-circuit",
-            "title": "Deploy and use Large Language Model (LLM)",
-            "subtitle": "A system for interact with a LLM and query user´s prompts",
-            "description": "Develop a system when the user deploy a LLM interface and query user´s prompts.",
+            "title": " A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
+            "subtitle": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
+            "description": "The model starts from a Bidirectional Encoder \n Representations from Transformers (BERT) model and\n improves the Continual Learning (CL) disadvantages based on:\n\n  - Combining a CL regularization approach in NLP (i.e.,\nABSA) with a gradient descent modiϐication algorithm to preserve relevant weights in a CL scenario.\n\n   - Using the output of a pretrained BERT model to\nimprove the results and tune the BERT model on the\nCL process.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -135,135 +135,7 @@
                 }
             ],
             "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "brain-cog",
-            "title": "Huggingface framework interactions for AI",
-            "subtitle": "Use Huggingface libraries for deploying a AI system",
-            "description": "A system where huggingface libraries are used to interact with data sets, models to achieve training and inference of a task.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                }
-            ],
-            "image": "/project_2_hugginface.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "brain-circuit",
-            "title": "LangChain's agent for interacting with LLM",
-            "subtitle": "Use LangChain libraries for implement an Agent for interacting with a LLM  for AI system",
-            "description": "Use LangChain libraries for implement an Agent for interacting with a LLM  for AI system.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_2_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "brain",
-            "title": "LlamaIndex's agent for interacting with LLM",
-            "subtitle": "Use LlamaIndex libraries for implement an Agent for interacting with a LLM  for AI system",
-            "description": "Use LlamaIndex libraries for implement an Agent for interacting with a LLM  for AI system.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "brain-circuit",
-            "title": "An AI system for convert NLP query in SQL language",
-            "subtitle": "With LangChain library create an agent for traduce query in NLP to SQL language",
-            "description": "With LangChain library create an agent for traduce query in NLP to SQL language.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_3_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "brain",
-            "title": "Retrieval Augmented Generation (RAG) system with Langchain and LLM",
-            "subtitle": "Use LlamaIndex libraries for implement an Agent for interacting with a LLM  for AI system",
-            "description": "Use LlamaIndex libraries for implement an Agent for interacting with a LLM  for AI system.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "github": "https://github.com/dionis/ABSA-DeepMultidomain"
         },
         {
             "icon": "brain-circuit",
@@ -280,43 +152,11 @@
                     "name": "Pytorch"
                 },
                 {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
                     "icon": "devicon-python-plain",
                     "name": "LangChain"
                 }
             ],
             "image": "/project_3_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "brain",
-            "title": "Deploy and use Large Language Model (LLM) with Multimodal input for image generation.",
-            "subtitle": "Deploy and use Large Language Model (LLM) with Multimodal input for image generation.",
-            "description": "eploy and use Large Language Model (LLM) with Multimodal input for image generation.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
             "github": "https://github.com/thomasanderson"
         },
         {

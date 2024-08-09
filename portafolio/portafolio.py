@@ -38,8 +38,8 @@ app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
     theme=rx.theme(
-        appearance="dark",
-        accent_color="grass",
+        appearance="light",
+        accent_color="mint",
         radius="full"
     )
 )
