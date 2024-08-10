@@ -120,8 +120,8 @@
     ],
     "projects": [
         {
-            "icon": "brain-circuit",
-            "title": " A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
+            "icon": "tablet-smartphone",
+            "title": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
             "subtitle": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
             "description": "The model starts from a Bidirectional Encoder \n Representations from Transformers (BERT) model and\n improves the Continual Learning (CL) disadvantages based on:\n\n  - Combining a CL regularization approach in NLP (i.e.,\nABSA) with a gradient descent modiϐication algorithm to preserve relevant weights in a CL scenario.\n\n   - Using the output of a pretrained BERT model to\nimprove the results and tune the BERT model on the\nCL process.",
             "technologies": [
@@ -134,52 +134,30 @@
                     "name": "Pytorch"
                 }
             ],
-            "image": "/project_1_llm.jpg",
+            "image": "/project_one.jpg",
             "github": "https://github.com/dionis/ABSA-DeepMultidomain"
         },
         {
-            "icon": "brain-circuit",
+            "icon": "smartphone",
             "title": "A Hotel Recommender: Multi-Agent Framework with CrewAI and Groq",
             "subtitle": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request",
             "description": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request.",
             "technologies": [
                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-android-plain",
+                    "name": "Android"
+                },
+                                {
+                    "icon": "devicon-dart-plain",
+                    "name": "Dart"
                 },
                 {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "icon": "devicon-flutter-original",
+                    "name": "Flutter"
                 }
             ],
-            "image": "/project_3_llm.jpg",
+            "image": "/project_two.jpg",
             "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "notebook-pen",
-            "title": "An tutorial course about Generative Artificial Intelligence",
-            "subtitle": "An spanish course about Generative Artificial Intelligence",
-            "description": "An spanish course about Generative Artificial Intelligence.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_2_llm.jpg",
-            "url": "https://www.youtube.com/watch?v=2OJIo6XwyGI&list=PL8k-7BmC9Spau1M9BiKWXsA0i6wXypmnT"
         }
     ],
     "training": [
