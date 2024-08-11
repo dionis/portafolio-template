@@ -121,29 +121,11 @@
     "projects": [
         {
             "icon": "tablet-smartphone",
-            "title": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
-            "subtitle": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
-            "description": "The model starts from a Bidirectional Encoder \n Representations from Transformers (BERT) model and\n improves the Continual Learning (CL) disadvantages based on:\n\n  - Combining a CL regularization approach in NLP (i.e.,\nABSA) with a gradient descent modiϐication algorithm to preserve relevant weights in a CL scenario.\n\n   - Using the output of a pretrained BERT model to\nimprove the results and tune the BERT model on the\nCL process.",
+            "title": "Chat where call http request and UI for interactions between users",
+            "subtitle": "A demo chat with request image on https://yesno.wtf/api",
+            "description": "A demo chat with request image on https://yesno.wtf/api, provider and clean code configuration",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                }
-            ],
-            "image": "/project_one.jpg",
-            "github": "https://github.com/dionis/ABSA-DeepMultidomain"
-        },
-        {
-            "icon": "smartphone",
-            "title": "A Hotel Recommender: Multi-Agent Framework with CrewAI and Groq",
-            "subtitle": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request",
-            "description": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request.",
-            "technologies": [
-               {
                     "icon": "devicon-android-plain",
                     "name": "Android"
                 },
@@ -156,8 +138,8 @@
                     "name": "Flutter"
                 }
             ],
-            "image": "/project_two.jpg",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_one.jpg",
+            "github": "https://github.com/dionis/yes_no_app_chat"
         }
     ],
     "training": [
@@ -166,24 +148,21 @@
             "title": "Phd in Computer Sciences",
             "subtitle": "Universidad Central \"Martha Abreu\", Las Villas (Santa Clara, Cuba)",
             "description": "Degree as Phd in Computer Sciences with a research about Deep and Lifelong Learning and Natural Language Processing (NLP)",
-            "date": "2024",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "date": "2024"
         },
         {
             "icon": "graduation-cap",
             "title": "MSc in Computer Sciences",
             "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
             "description": "Degree as MSc in Computer Sciences with a research about Artificial Intelligence and Sentiment Analysis.",
-            "date": "2013",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "date": "2013"
         },
         {
             "icon": "graduation-cap",
             "title": "Bachelor of Computer Science",
             "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
             "description": "Degree as Bachelor of Computer Science.",
-            "date": "2007",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "date": "2007"
         }
     ],
     "extras": [
