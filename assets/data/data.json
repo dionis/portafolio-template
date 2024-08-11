@@ -210,21 +210,21 @@
             "title": "Phd in Computer Sciences",
             "subtitle": "Universidad Central \"Martha Abreu\", Las Villas (Santa Clara, Cuba)",
             "description": "Degree as Phd in Computer Sciences with a research about Deep and Lifelong Learning and Natural Language Processing (NLP)",
-            "date": "2024",
+            "date": "2024"
         },
         {
             "icon": "graduation-cap",
             "title": "MSc in Computer Sciences",
             "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
             "description": "Degree as MSc in Computer Sciences with a research about Artificial Intelligence and Sentiment Analysis.",
-            "date": "2013",
+            "date": "2013"
         },
         {
             "icon": "graduation-cap",
             "title": "Bachelor of Computer Science",
             "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
             "description": "Degree as Bachelor of Computer Science.",
-            "date": "2007",
+            "date": "2007"
         }
     ],
     "extras": [
