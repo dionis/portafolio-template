@@ -1,8 +1,8 @@
 {
     "title": "Dionis López Ramos | Flutter Portafolio",
     "description": "I'm a Cuban software engineer and Data Sciences, Phd in Computer Sciences and AI researcher",
-    "image": "/avatar_main.jpg",
-    "avatar": "/avatar_main.jpg",
+    "image": "/flutter_portafolio/avatar_main.jpg",
+    "avatar": "/flutter_portafolio/avatar_main.jpg",
     "name": "Dionis López Ramos",
     "skill": "Software Developer, Data Sciences and AI researcher",
     "location": "Santiago de Cuba, Cuba",
@@ -138,7 +138,7 @@
                     "name": "Flutter"
                 }
             ],
-            "image": "/project_one.jpeg",
+            "image": "/flutter_portafolio/project_one.jpeg",
             "github": "https://github.com/dionis/yes_no_app_chat"
         }
     ],
@@ -167,7 +167,7 @@
     ],
     "extras": [
         {
-            "image": "/award.ico",
+            "image": "/flutter_portafolio/award.ico",
             "title": "Winner of the iStartUp award at D4D (Brussels, Belgium)",
             "description": "Winner of the Digital for Development (D4D) grand prize for best proposal for StartUp with the WisePocket project.",
             "url": "https://misiones.cubaminrex.cu/es/cuba-belgica-premio-prize-digital-development-d4d-2018-colaboracion-interuniversitaria-universidad"
