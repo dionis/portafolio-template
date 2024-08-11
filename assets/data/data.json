@@ -289,8 +289,7 @@
                 }
             ],
             "image": "/project_3_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "github": "https://github.com/dionis/crewai_hotel_recomender"
         },
         {
             "icon": "brain",
