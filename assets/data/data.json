@@ -140,6 +140,28 @@
             ],
             "image": "/flutter_portafolio/project_one.jpeg",
             "github": "https://github.com/dionis/yes_no_app_chat"
+        },
+        {
+            "icon": "smartphone",
+            "title": "A flexible Point of Sale (POS) app for Cuban stores",
+            "subtitle": "A flexible Point of Sale (POS) app using Flutter. Using QR lector and \nOCR read image files.",
+            "description": "A flexible Point of Sale (POS) app using Flutter. Using QR lector and \nOCR read image files.",
+            "technologies": [
+                {
+                    "icon": "devicon-android-plain",
+                    "name": "Android"
+                },
+                                {
+                    "icon": "devicon-dart-plain",
+                    "name": "Dart"
+                },
+                {
+                    "icon": "devicon-flutter-original",
+                    "name": "Flutter"
+                }
+            ],
+            "image": "/flutter_portafolio/project_two.jpeg",
+            "github": "https://github.com/dionis/pos_inoidsoft_app"
         }
     ],
     "training": [
