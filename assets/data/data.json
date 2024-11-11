@@ -181,6 +181,38 @@
             "image": "/project_3_llm.jpg",
             "github": "https://github.com/dionis/crewai_hotel_recomender"
         },
+
+         {
+            "icon": "brain-circuit",
+            "title": "A Hotel Recommender: Multi-Agent Framework with CrewAI and Groq",
+            "subtitle": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request",
+            "description": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request.",
+            "technologies": [
+               {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-pytorch-original",
+                    "name": "Pytorch"
+                },
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "LangChain"
+                }
+            ],
+            "image": "/project_3_llm.jpg",
+            "github": "https://github.com/dionis/crewai_hotel_recomender"
+        },
+
+    //https://github.com/dionis/crewai_agent_usecase
+    //https://github.com/dionis/multimodal_rag_ai
+    //https://github.com/dionis/fastapi_litserve_llm_usecase
+    //https://github.com/dionis/llamaindex_agent_rag_usecase
+     //https://github.com/dionis/langchain_multiagent_usecase
+     //https://github.com/dionis/crewai_multiagent_usecase
+     //https://github.com/dionis/hugginface_llm_finetuning
+
         {
             "icon": "notebook-pen",
             "title": "An tutorial course about Generative Artificial Intelligence",
