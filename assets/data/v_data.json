@@ -1,0 +1,111 @@
+{
+  "title": "Dionis López Ramos | Portafolio",
+  "description": "I'm a Cuban software engineer and Data Sciences, Phd in Computer Sciences and AI researcher",
+  "image": "/avatar_main.jpg",
+  "avatar": "/avatar_main.jpg",
+  "name": "Dionis López Ramos",
+  "skill": "Software Developer, Data Sciences and AI researcher",
+  "location": "Santiago de Cuba, Cuba",
+  "media": {
+    "email": "inoid2007@gmail.com",
+    "cv": "/data/cv_main.pdf",
+    "github": "https://github.com/dionis",
+    "likedin": "https://www.linkedin.com/in/dionis-lopez-ramos/"
+  },
+  "about": "I'm degree in Computer Sciences, with a degree in MSc and PhD in Computer Sciences and Software Developer with more of 15 experiences years. I worked in several software enterprise and freelancer.",
+  "technologies": [
+    {
+      "icon": "devicon-java-plain",
+      "name": "Java"
+    }
+  ],
+  "experience": [
+    {
+      "icon": "terminal",
+      "title": "Datys Inc.",
+      "subtitle": "Developer and Team Leader",
+      "description": "Software developer.",
+      "date": "2007-2016"
+    },
+    {
+      "icon": "terminal",
+      "title": "PitBloc Inc.",
+      "subtitle": "Developer",
+      "description": "Software developer.",
+      "date": "2016-2017"
+    },
+    {
+      "icon": "terminal",
+      "title": "First Due Inc.",
+      "subtitle": "Developer",
+      "description": "Software developer.",
+      "date": "2022-2024"
+    },
+    {
+      "icon": "terminal",
+      "title": "ProdevSolution Inc.",
+      "subtitle": "Developer",
+      "description": "Software developer.",
+      "date": "2020-2024"
+    },
+    {
+      "icon": "terminal",
+      "title": "Universidad de Oriente, Cuba",
+      "subtitle": "Teacher",
+      "description": "Artificial Intelligence, Image Processing, Data Structured and Algorithms, Web Programing.",
+      "date": "2007-2023"
+    }
+  ],
+  "projects": [
+        {
+            "icon": "box-select",
+            "title": "Título",
+            "subtitle": "Subtítulo",
+            "description": "Descripción",
+            "technologies": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnología"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnología"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://google.com",
+            "github": "https://github.com"
+        }
+    ],
+  "training": [
+    {
+      "icon": "graduation-cap",
+      "title": "Phd in Computer Sciences",
+      "subtitle": "Universidad Central \"Martha Abreu\", Las Villas (Santa Clara, Cuba)",
+      "description": "Degree as Phd in Computer Sciences with a research about Deep and Lifelong Learning and Natural Language Processing (NLP)",
+      "date": "2024"
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "MSc in Computer Sciences",
+      "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
+      "description": "Degree as MSc in Computer Sciences with a research about Artificial Intelligence and Sentiment Analysis.",
+      "date": "2013"
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Bachelor of Computer Science",
+      "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
+      "description": "Degree as Bachelor of Computer Science.",
+      "date": "2007"
+    }
+  ],
+  "extras": [
+    {
+      "image": "/award.ico",
+      "title": "Winner of the iStartUp award at D4D (Brussels, Belgium)",
+      "description": "Winner of the Digital for Development (D4D) grand prize for best proposal for StartUp with the WisePocket project.",
+      "url": "https://misiones.cubaminrex.cu/es/cuba-belgica-premio-prize-digital-development-d4d-2018-colaboracion-interuniversitaria-universidad"
+    }
+  ]
+}

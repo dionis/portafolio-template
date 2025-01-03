@@ -61,7 +61,7 @@ Clona el proyecto, crea un entorno virtual, instala Reflex y ejecútalo para acc
 
 Principalmente puedes configurar el contenido y el aspecto gráfico del sitio web.
 
-* Contenido: Edita el archivo [data.json](./assets/data/data.json) con la información de tu portafolio.
+* Contenido: Edita el archivo [data.json](./assets/data/v_data.json) con la información de tu portafolio.
 	* Campos opcionales dentro de `experience`, `projects` y `training`: *technologies, date, certificate, image, url y github*.
 	* Los iconos generales se corresponden con los identificadores de [Lucide icons](https://lucide.dev/icons/).
 	* Los iconos de las tecnologías se corresponden con los identificadores de [Devicon](https://devicon.dev/).
