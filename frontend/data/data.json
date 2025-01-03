@@ -75,7 +75,7 @@
             "name": "Vuejs"
         },
         {
-            "icon": "devicon-amazonwebservices-plain-wordmark",
+            "icon": "devicon-amazonwebservices-plain",
             "name": "AWS"
         },
         {
@@ -119,91 +119,237 @@
         }
     ],
     "projects": [
+    {
+      "icon": "brain-circuit",
+      "title": " A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
+      "subtitle": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
+      "description": "The model starts from a Bidirectional Encoder  Representations from Transformers (BERT) model and improves the Continual Learning (CL) disadvantages based on:  - Combining a CL regularization approach in NLP (i.e.,ABSA) with a gradient descent modiϐication algorithm to preserve relevant weights in a CL scenario.   - Using the output of a pretrained BERT model toimprove the results and tune the BERT model on theCL process.",
+      "technologies": [
         {
-            "icon": "brain-circuit",
-            "title": " A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
-            "subtitle": "A hybrid model that combines the continual and deep learning approaches for Aspect Sentiment Classification",
-            "description": "The model starts from a Bidirectional Encoder \n Representations from Transformers (BERT) model and\n improves the Continual Learning (CL) disadvantages based on:\n\n  - Combining a CL regularization approach in NLP (i.e.,\nABSA) with a gradient descent modiϐication algorithm to preserve relevant weights in a CL scenario.\n\n   - Using the output of a pretrained BERT model to\nimprove the results and tune the BERT model on the\nCL process.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                }
-            ],
-            "image": "/project_3_llm.jpg",
-            "github": "https://github.com/dionis/ABSA-DeepMultidomain"
+          "icon": "devicon-python-plain",
+          "name": "Python"
         },
         {
-            "icon": "brain",
-            "title": "Retrieval Augmented Generation (RAG) system with Langchain, Ollama and Phi3 LLM",
-            "subtitle": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system",
-            "description": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_1_llm.jpg",
-            "github": "https://github.com/dionis/customOllamaOnPC"
-        },
-        {
-            "icon": "brain-circuit",
-            "title": "A Hotel Recommender: Multi-Agent Framework with CrewAI and Groq",
-            "subtitle": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request",
-            "description": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_3_llm.jpg",
-            "github": "https://github.com/dionis/crewai_hotel_recomender"
-        },
-        {
-            "icon": "notebook-pen",
-            "title": "An tutorial course about Generative Artificial Intelligence",
-            "subtitle": "An spanish course about Generative Artificial Intelligence",
-            "description": "An spanish course about Generative Artificial Intelligence.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LangChain"
-                }
-            ],
-            "image": "/project_2_llm.jpg",
-            "url": "https://www.youtube.com/watch?v=2OJIo6XwyGI&list=PL8k-7BmC9Spau1M9BiKWXsA0i6wXypmnT"
+          "icon": "devicon-pytorch-original",
+          "name": "Pytorch"
         }
-    ],
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/ABSA-DeepMultidomain"
+    },
+    {
+      "icon": "brain",
+      "title": "Retrieval Augmented Generation (RAG) system with Langchain, Ollama and Phi3 LLM",
+      "subtitle": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system",
+      "description": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-pytorch-original",
+          "name": "Pytorch"
+        },
+        {
+          "icon": "devicon-python-plain",
+          "name": "LangChain"
+        }
+      ],
+      "image": "/project_1_llm.jpg",
+      "github": "https://github.com/dionis/customOllamaOnPC"
+    },
+    {
+      "icon": "brain-circuit",
+      "title": "A Hotel Recommender: Multi-Agent Framework with CrewAI and Groq",
+      "subtitle": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request",
+      "description": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-pytorch-original",
+          "name": "Pytorch"
+        },
+        {
+          "icon": "devicon-python-plain",
+          "name": "LangChain"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/crewai_hotel_recomender"
+    },
+    {
+      "icon": "brain",
+      "title": "Pipeline data using Apache Airflow",
+      "subtitle": "A data pipeline using Apache Airflow or AWS Step Functions",
+      "description": "Design a data pipeline using Apache Airflow or AWS Step Functions:    Step 1: Download a file from a provided URL.    Step 2: Process the file (similar to processing in Part 2).    Step 3: Upload the processed results to an S3 bucket.    Step 4: Notify via SNS upon completion.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-apacheairflow-plain",
+          "name": "Airflow"
+        },
+        {
+          "icon": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/airflow_aws_data_pipeline"
+    },
+    {
+      "icon": "brain-circuit",
+      "title": "Process a csv dataset with boto3 library and AWS services interactions",
+      "subtitle": "Process a csv dataset with boto3 library and AWS services interactions",
+      "description": "    Upload a CSV file with dummy transaction data to S3 .    Process the file using a Python script:        Read the file from S3.        Filter transactions by a condition (for example, “amount > 500”).        Save the filtered results in Redshift.    Upon completion of processing, send a notification via SNS indicating that the Data was loaded successfully.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/data-process_challenge"
+    },
+    {
+      "icon": "brain",
+      "title": "terraform-aws-data_engineer",
+      "subtitle": "terraform-aws-data_engineer: An Infrastructure project with Terraform",
+      "description": "Create an infrastructure on AWS that includes:    An S3 bucket to store data files.    An Amazon EMR (Elastic MapReduce) cluster for distributed processing.    An Amazon Redshift database for data analysis.    Adequate security:        Only the EMR should access the S3 bucket.        Only the project owner should be able to access the Redshift cluster (using fixed IP).    An Amazon SNS topic that sends notifications when the load in Redshift finish.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-terraform-plain",
+          "name": "Terraform"
+        },
+        {
+          "icon": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/terraform-aws-data_engineer"
+    },
+    {
+      "icon": "brain-circuit",
+      "title": "Crewai multi agent system project",
+      "subtitle": "A project with tools, agents for financial, web search and table analysis",
+      "description": "A project with tools, agents for financial, web search and table analysis",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/crewai_agent_usecase"
+    },
+    {
+      "icon": "brain",
+      "title": "multimodal_rag_ai",
+      "subtitle": "A system for using RAG multimodal search with text, photo and video with a simple UI.",
+      "description": "A system for using RAG multimodal search with text, photo and video with a simple UI.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-python-plain",
+          "name": "LangChain"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/multimodal_rag_ai"
+    },
+    {
+      "icon": "brain-circuit",
+      "title": "fatapi_litserve_llm_usecase",
+      "subtitle": "A deployment system for using litserver (fastapi) to create LLM endpoint request",
+      "description": "A deployment system for using litserver (fastapi) to create LLM endpoint request",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-fastapi-plain",
+          "name": "FastApi"
+        }
+      ],
+      "image": "/project_3_llm.jpg",
+      "github": "https://github.com/dionis/fastapi_litserve_llm_usecase"
+    },
+    {
+      "icon": "notebook-pen",
+      "title": "An tutorial course about Generative Artificial Intelligence",
+      "subtitle": "An spanish course about Generative Artificial Intelligence",
+      "description": "An spanish course about Generative Artificial Intelligence.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-pytorch-original",
+          "name": "Pytorch"
+        },
+        {
+          "icon": "devicon-python-plain",
+          "name": "LangChain"
+        },
+         {
+          "icon": "devicon-python-plain",
+          "name": "LlamaIndex"
+        }
+      ],
+      "image": "/project_2_llm.jpg",
+      "url": "https://www.youtube.com/watch?v=2OJIo6XwyGI&list=PL8k-7BmC9Spau1M9BiKWXsA0i6wXypmnT"
+    },
+    {
+      "icon": "notebook-pen",
+      "title": "Conference: Generative Artificial Intelligence Tools with the use of Large Language Models",
+      "subtitle": "A Spanish Pre-event conference by Dr.C Dionis López Ramos as part of the IV International Convention Science and Consciousness. On the main concepts of Artificial Intelligence in the context of LLM Large Language Models and their use for software research and development.",
+      "description": "A Spanish Pre-event conference by Dr.C Dionis López Ramos as part of the IV International Convention Science and Consciousness. On the main concepts of Artificial Intelligence in the context of LLM Large Language Models and their use for software research and development.",
+       "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-pytorch-original",
+          "name": "Pytorch"
+        },
+        {
+          "icon": "devicon-python-plain",
+          "name": "LangChain"
+        },
+         {
+          "icon": "devicon-python-plain",
+          "name": "LlamaIndex"
+        }
+      ],
+      "image": "/project_2_llm.jpg",
+      "url": "https://www.youtube.com/watch?v=kXSjK8TtKzI&t"
+    }
+  ],
     "training": [
         {
             "icon": "graduation-cap",
