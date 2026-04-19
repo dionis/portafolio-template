@@ -12,7 +12,7 @@
         "github": "https://github.com/dionis",
         "likedin": "https://www.linkedin.com/in/dionis-lopez-ramos/"
     },
-    "about": "I'm degree in Computer Sciences, with a degree in MSc and PhD in Computer Sciences and Software Developer with more of 15 experiences years. I worked in several software enterprise and freelancer.",
+    "about": "I'm degree in Computer Sciences, with a degree in MSc and PhD in Computer Sciences and Software Developer with more of 17 experiences years. I worked in several software enterprise and freelancer. Extensive experience as an AI Engineer and Researcher.",
     "technologies": [
         {
             "icon": "devicon-java-plain",
@@ -109,21 +109,27 @@
             "title": "ProdevSolution Inc.",
             "subtitle": "Developer",
             "description": "Software developer.",
-            "date": "2020-2024"
+            "date": "2020-2025"
+        },
+        {"icon": "terminal",
+            "title": "Brain AIx (StartUP)",
+            "subtitle": "AI Researcher and Developer",
+            "description": "AI Research and Engineer.",
+            "date": "2025-2026"
         },
            {"icon": "terminal",
             "title": "Universidad de Oriente, Cuba",
             "subtitle": "Teacher",
             "description": "Artificial Intelligence, Image Processing, Data Structured and Algorithms, Web Programing.",
-            "date": "2007-2023"
+            "date": "2007-2025"
         }
     ],
     "projects": [
-        {
-            "icon": "brain-circuit",
-            "title": "Deploy and use Large Language Model (LLM)",
-            "subtitle": "A system for interact with a LLM and query user´s prompts",
-            "description": "Develop a system when the user deploy a LLM interface and query user´s prompts.",
+     {
+             "icon": "brain-circuit",
+             "title": "PracterViews: The Future of AI Interviewing",
+             "subtitle": "PracterViews is not just an AI interviewer — it's a hyper-realistic simulation engine. Powered by multimodal LLMs, cinematic avatars, and real-time audio/video orchestration, it recreates the feeling of interviewing with a real human in milliseconds.",
+            "description":"PracterViews is not just an AI interviewer — it's a hyper-realistic simulation engine. Powered by multimodal LLMs, cinematic avatars, and real-time audio/video orchestration, it recreates the feeling of interviewing with a real human in milliseconds.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -132,17 +138,24 @@
                 {
                     "icon": "devicon-pytorch-original",
                     "name": "Pytorch"
+                },
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "icon": "devicon-openapi-plain",
+                    "name": "LiveKit"
                 }
             ],
-            "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_1_llm.jpg",        
+            "github": "https://github.com/dionis/PracterViews-AI-Interviewer"
         },
         {
             "icon": "brain-cog",
-            "title": "Huggingface framework interactions for AI",
-            "subtitle": "Use Huggingface libraries for deploying a AI system",
-            "description": "A system where huggingface libraries are used to interact with data sets, models to achieve training and inference of a task.",
+            "title": "multimodal_rag_ai",
+            "subtitle": "A system for using RAG multimodal search with text, photo and video with a simple UI.",
+            "description": "A system for using RAG multimodal search with text, photo and video with a simple UI.",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -153,15 +166,14 @@
                     "name": "Pytorch"
                 }
             ],
-            "image": "/project_2_hugginface.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_2_hugginface.jpg",           
+            "github": "https://github.com/dionis/multimodal_rag_ai"
         },
         {
             "icon": "brain-circuit",
-            "title": "LangChain's agent for interacting with LLM",
-            "subtitle": "Use LangChain libraries for implement an Agent for interacting with a LLM  for AI system",
-            "description": "Use LangChain libraries for implement an Agent for interacting with a LLM  for AI system.",
+            "title": "livekit-plugins-artalk",
+            "subtitle": "LiveKit Agents plugin for ARTalk 3D TalkingHead avatar integration, including a FastAPI microservice GPU server and a lightweight client plugin.",
+            "description": "LiveKit Agents plugin for ARTalk 3D TalkingHead avatar integration, including a FastAPI microservice GPU server and a lightweight client plugin.",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -177,18 +189,17 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "LiveKit"
                 }
             ],
-            "image": "/project_2_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_2_llm.jpg",          
+            "github": "https://github.com/dionis/develop_livekit_and_external_ai_module"
         },
         {
             "icon": "brain",
-            "title": "LlamaIndex's agent for interacting with LLM",
-            "subtitle": "Use LlamaIndex libraries for implement an Agent for interacting with a LLM  for AI system",
-            "description": "Use LlamaIndex libraries for implement an Agent for interacting with a LLM  for AI system.",
+            "title": "sysmology_cnais_mcp_server",
+            "subtitle": "A MCP server for get generative AI information about sismology from Cuba's Cenais institute.",
+            "description": "A MCP server for get generative AI information about sismology from Cuba's Cenais institute.",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -204,18 +215,17 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "MCP"
                 }
             ],
-            "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_1_llm.jpg",        
+            "github": "https://github.com/dionis/sysmology_cnais_mcp_server"
         },
         {
             "icon": "brain-circuit",
-            "title": "An AI system for convert NLP query in SQL language",
-            "subtitle": "With LangChain library create an agent for traduce query in NLP to SQL language",
-            "description": "With LangChain library create an agent for traduce query in NLP to SQL language.",
+            "title": "Event Prospecting Multi-Agent System",
+            "subtitle": "Automatically search, discover, and build a potential lead database for specific events across various niches. This project uses a LangGraph-powered multi-agent system combined with Gemini 2.0 Flash.",
+            "description": "Automatically search, discover, and build a potential lead database for specific events across various niches. This project uses a LangGraph-powered multi-agent system combined with Gemini 2.0 Flash to find events, scrape organizing entities' data, and send updates and notifications. It includes an automated scheduler (APScheduler) for recurrent executions and a Gradio web interface for tracking campaign performance and status.",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -231,17 +241,16 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "LangChain / LangGraph"
                 }
             ],
-            "image": "/project_3_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_3_llm.jpg",          
+            "github": "https://github.com/dionis/agent_find_leads_events"
         },
         {
             "icon": "brain",
-            "title": "Retrieval Augmented Generation (RAG) system with Langchain, Ollama and Phi3 LLM",
-            "subtitle": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system",
+            "title": "crewai_multiagent_conten_creation",
+            "subtitle": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system.",
             "description": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system.",
             "technologies": [
                {
@@ -254,17 +263,17 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "CrewAi"
                 }
             ],
             "image": "/project_1_llm.jpg",
-            "github": "https://github.com/dionis/customOllamaOnPC"
+            "github": "https://github.com/dionis/crewai_multiagent_content_creation.git"
         },
         {
             "icon": "brain-circuit",
-            "title": "A Hotel Recommender: Multi-Agent Framework with CrewAI and Groq",
-            "subtitle": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request",
-            "description": "With CrewAI library create an agent for hotels recommendation using groq as API for calling LLM request.",
+            "title": "crewai_multiagent_support_data_insight",
+            "subtitle": "A CrewAi multi agent system as example for Support Data Insight Analysis when use tabular data as data for agents.",
+            "description": "A CrewAi multi agent system as example for Support Data Insight Analysis when use tabular data as data for agents. ##Support Data Analysis - Go over a series of data from support. - Generate suggestions for improvements. - Organize the data into tabular insights - Plot charts to visualize trends - Write a full final report on the analysis.",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -280,18 +289,17 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "CrewAi"
                 }
             ],
-            "image": "/project_3_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_3_llm.jpg",           
+            "github": "https://github.com/dionis/crewai_multiagent_support_data_insight"
         },
         {
             "icon": "brain",
-            "title": "Deploy and use Large Language Model (LLM) with Multimodal input for image generation.",
-            "subtitle": "Deploy and use Large Language Model (LLM) with Multimodal input for image generation.",
-            "description": "eploy and use Large Language Model (LLM) with Multimodal input for image generation.",
+            "title": "Smartwatch LLM Service",
+            "subtitle": "Smartwatch LLM Service is a backend service that uses multimodal language models (LLMs) to analyze smartwatch images and extract health metrics (heart rate, steps, calories, etc.).",
+            "description": "Backend service for processing smartwatch screenshots using multimodal LLMs. The service provides FastAPI (REST), gRPC, and Gradio (Web UI) interfaces for extracting data from smartwatch images.\nFeatures\n\n    🚀 Triple Interface: FastAPI (REST), gRPC, and Gradio (Web UI) support\n    🎨 User-Friendly UI: Gradio web interface for easy testing of both services\n    🧠 Flexible LLM Backend: Support for multiple multimodal models (Phi-4, Gemma, Gemma 3n, LLaVA, etc.)\n    🔄 Easy Model Switching: Change models via environment variables without code changes\n    ⚡ Lightning.ai Ready: Configured for deployment on Lightning.ai platform\n    🧪 Test Clients: Comprehensive test clients for both FastAPI and gRPC\n    📊 Inference Tracking: Built-in timing for LLM inference",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -299,7 +307,7 @@
                 },
                 {
                     "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
+                    "name": "Ligthinht.ai"
                 },
                 {
                     "icon": "devicon-fastapi-plain",
@@ -307,17 +315,73 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "LLM Multimodal"
                 }
             ],
-            "image": "/project_1_llm.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_1_llm.jpg",           
+            "github": "https://github.com/dionis/smartwatch_llm_service"
+        },
+      {
+             "icon": "brain-circuit",
+             "title": "pos_inoidsoft_app",
+             "subtitle": "A project built with Flutter for the creation of a point-of-sale management platform for retail businesses.",
+            "description":"A project built with Flutter for the creation of a point-of-sale management platform for retail businesses.",
+            "technologies": [
+                {
+                    "icon": "devicon-dart-plain",
+                    "name": "Dart"
+                },
+                {
+                    "icon": "devicon-flutter-plain colored",
+                    "name": "Flutter"
+                }   
+            ],
+            "image": "/project_3_llm.jpg",        
+            "github": "https://github.com/dionis/pos_inoidsoft_app"
+        },
+         {
+             "icon": "notebook-pen",
+             "title": "InstaShare Platform",
+             "subtitle": "An online platform for managing and sharing documents securely and efficiently.",
+            "description":"A robust API built with FastAPI, providing secure document management, user authentication, and scheduled background tasks for document processing.",
+            "technologies": [   {
+                    "icon": "devicon-fastapi-plain",
+                    "name": "FastApi"
+                },
+                {
+                    "icon": "devicon-supabase-plain",
+                    "name": "Supabase"
+                },
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "icon": "devicon-docker-plain colored",
+                    "name": "Docker"
+                }
+            ],
+            "image": "/project_2_llm.jpg",        
+            "github": "https://github.com/dionis/InstaShare"
+        },
+         {
+             "icon": "brain-circuit",
+             "title": "airflow_dataanalysis",
+             "subtitle": "Project with Apache Airflow for ETL supporting.",
+            "description":"Project with Apache Airflow for ETL supporting.",
+            "technologies": [
+                {
+                    "icon": "devicon-apacheairflow-plain colored",
+                    "name": "Airflow"
+                }
+            ],
+            "image": "/project_1_llm.jpg",        
+            "github": "https://github.com/dionis/airflowETLprocessing"
         },
         {
             "icon": "notebook-pen",
             "title": "An tutorial course about Generative Artificial Intelligence",
-            "subtitle": "An spanish course about Generative Artificial Intelligence",
+            "subtitle": "An spanish course about Generative Artificial Intelligence.",
             "description": "An spanish course about Generative Artificial Intelligence.",
             "technologies": [
                {
@@ -330,7 +394,7 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "LangChain"
+                    "name": "LLM and Generative AI"
                 }
             ],
             "image": "/project_2_llm.jpg",
@@ -343,29 +407,29 @@
             "title": "Phd in Computer Sciences",
             "subtitle": "Universidad Central \"Martha Abreu\", Las Villas (Santa Clara, Cuba)",
             "description": "Degree as Phd in Computer Sciences with a research about Deep and Lifelong Learning and Natural Language Processing (NLP)",
-            "date": "2024",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "date": "2024"
+          
         },
         {
             "icon": "graduation-cap",
             "title": "MSc in Computer Sciences",
             "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
             "description": "Degree as MSc in Computer Sciences with a research about Artificial Intelligence and Sentiment Analysis.",
-            "date": "2013",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "date": "2013"
+           
         },
         {
             "icon": "graduation-cap",
             "title": "Bachelor of Computer Science",
             "subtitle": "Universidad de Oriente (Santiago de Cuba, Cuba)",
             "description": "Degree as Bachelor of Computer Science.",
-            "date": "2007",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "date": "2007"
+            
         }
     ],
     "extras": [
         {
-            "image": "/award.ico",
+            "image": "/award.png",
             "title": "Winner of the iStartUp award at D4D (Brussels, Belgium)",
             "description": "Winner of the Digital for Development (D4D) grand prize for best proposal for StartUp with the WisePocket project.",
             "url": "https://misiones.cubaminrex.cu/es/cuba-belgica-premio-prize-digital-development-d4d-2018-colaboracion-interuniversitaria-universidad"

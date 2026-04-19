@@ -6,6 +6,54 @@ from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
 
 def info_detail(info: Info) -> rx.Component:
+    # Build optional components using Python conditionals (static data, not reactive State)
+    tech_badges = []
+    if info.technologies:
+        tech_badges = [
+            rx.flex(
+                *[
+                    rx.badge(
+                        rx.box(class_name=technology.icon),
+                        technology.name,
+                        color_scheme="gray"
+                    )
+                    for technology in info.technologies
+                ],
+                wrap="wrap",
+                spacing=Size.SMALL.value
+            )
+        ]
+
+    link_buttons = []
+    if info.url:
+        link_buttons.append(icon_button("link", info.url))
+    if info.github:
+        link_buttons.append(icon_button("github", info.github))
+
+    image_components = []
+    if info.image:
+        image_components.append(
+            rx.image(
+                src=info.image,
+                height=IMAGE_HEIGHT,
+                width="auto",
+                border_radius=EmSize.DEFAULT.value,
+                object_fit="cover"
+            )
+        )
+
+    side_components = []
+    if info.date:
+        side_components.append(rx.badge(info.date))
+    if info.certificate:
+        side_components.append(
+            icon_button(
+                "shield-check",
+                info.certificate,
+                solid=True
+            )
+        )
+
     return rx.flex(
         rx.hstack(
             icon_badge(info.icon),
@@ -17,66 +65,17 @@ def info_detail(info: Info) -> rx.Component:
                     size=Size.SMALL.value,
                     color_scheme="gray"
                 ),
-                rx.cond(
-                    info.technologies,
-                    rx.flex(
-                        *[
-                            rx.badge(
-                                rx.box(class_name=technology.icon),
-                                technology.name,
-                                color_scheme="gray"
-                            )
-                            for technology in info.technologies
-                        ],
-                        wrap="wrap",
-                        spacing=Size.SMALL.value
-                    )
-                ),
-                rx.hstack(
-                    rx.cond(
-                        info.url != "",
-                        icon_button(
-                            "link",
-                            info.url
-                        )
-                    ),
-                    rx.cond(
-                        info.github != "",
-                        icon_button(
-                            "github",
-                            info.github
-                        )
-                    )
-                ),
+                *tech_badges,
+                rx.hstack(*link_buttons),
                 spacing=Size.SMALL.value,
                 width="100%"
             ),
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        rx.cond(
-            info.image != "",
-            rx.image(
-                src=info.image,
-                height=IMAGE_HEIGHT,
-                width="auto",
-                border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
-            )
-        ),
+        *image_components,
         rx.vstack(
-            rx.cond(
-                info.date != "",
-                rx.badge(info.date)
-            ),
-            rx.cond(
-                info.certificate != "",
-                icon_button(
-                    "shield-check",
-                    info.certificate,
-                    solid=True
-                )
-            ),
+            *side_components,
             spacing=Size.SMALL.value,
             align="end"
         ),
