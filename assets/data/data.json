@@ -276,8 +276,8 @@
         {
             "icon": "brain",
             "title": "crewai_multiagent_conten_creation",
-            "subtitle": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system.",
-            "description": "Use Langchain libraries for implement an Agent for interacting with a LLM  for AI system.",
+            "subtitle": "A CrewAi multi agent system as example for Conten Creation wiht a multi-model (use diferent model) case use.",
+            "description": "A CrewAi multi agent system as example for Conten Creation wiht a multi-model (use diferent model) case use.",
             "technologies": [
                {
                     "icon": "devicon-python-plain",
@@ -289,7 +289,7 @@
                 },
                 {
                     "icon": "devicon-python-plain",
-                    "name": "CrewAi"
+                    "name": "CrewAI"
                 }
             ],
             "image": "/project_1_llm.jpg",
