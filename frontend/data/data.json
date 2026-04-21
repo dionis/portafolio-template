@@ -247,32 +247,6 @@
             "image": "/project_3_llm.jpg",          
             "github": "https://github.com/dionis/agent_find_leads_events"
         },
-         {
-            "icon": "notebook-pen",
-            "title": "Booking Voice LiveKit Multiagent System",
-            "subtitle": "A project for tourist customer booking tour in someone place. Using the LiveKit platform.",
-            "description": "A project for tourist customer booking tour in someone place. Using the LiveKit platform.",
-            "technologies": [
-               {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-pytorch-original",
-                    "name": "Pytorch"
-                },
-                {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastApi"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "LiveKit"
-                }
-            ],
-            "image": "/project_2_llm.jpg",          
-            "github": "https://github.com/dionis/booking_voice_agent"
-        },
         {
             "icon": "brain",
             "title": "crewai_multiagent_conten_creation",
