@@ -41,8 +41,7 @@ app = rx.App(
         appearance="dark",
         accent_color="grass",
         radius="full"
-    ),
-    overlay_component=None,
+    )
 )
 
 title = DATA.title
